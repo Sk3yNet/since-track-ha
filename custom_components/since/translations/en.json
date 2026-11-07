@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Since",
+        "description": "Only the users you pick here can see or change your Since data. Everyone else, admins included, is refused by the server. Note that anyone who can open the config folder can still read the storage file.",
+        "data": {
+          "allowed_users": "Users who can use Since",
+          "notify_service": "Send reminders with (optional)",
+          "hide_names": "Hide event names in reminders"
+        },
+        "data_description": {
+          "notify_service": "Pick your phone's notify service, for example notify.mobile_app_joes_iphone. Leave empty for no reminders."
+        }
+      }
+    },
+    "error": { "no_users": "Pick at least one user." },
+    "abort": { "single_instance_allowed": "Since is already set up." }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Since settings",
+        "data": {
+          "allowed_users": "Users who can use Since",
+          "notify_service": "Send reminders with (optional)",
+          "hide_names": "Hide event names in reminders"
+        },
+        "data_description": {
+          "notify_service": "Pick your phone's notify service. Leave empty for no reminders."
+        }
+      }
+    },
+    "error": { "no_users": "Pick at least one user." }
+  }
+}

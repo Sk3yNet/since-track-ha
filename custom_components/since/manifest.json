@@ -1,0 +1,20 @@
+{
+  "domain": "since",
+  "name": "Since",
+  "codeowners": [
+    "@Sk3yNet"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "frontend",
+    "http",
+    "websocket_api"
+  ],
+  "documentation": "https://github.com/Sk3yNet/since-track-ha",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/Sk3yNet/since-track-ha/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.0.0"
+}
